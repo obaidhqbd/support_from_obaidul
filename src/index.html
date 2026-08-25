@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a10" />
+  <meta name="description" content="Futuristic web development learning and coding lab." />
+  <title>Web Lab</title>
+  <link rel="preconnect" href="https://esm.sh" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="topbar shell">
+    <a class="brand" href="#home" aria-label="Home">
+      <span class="brand-mark" id="brandMark">OWL</span>
+      <span><strong id="brandName">Web Lab</strong><small id="brandRole">Learning Lab</small></span>
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#classes">Classes</a>
+      <a href="#workspace" class="nav-cta">Open Lab</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> FUTURE-READY WEB DEVELOPMENT</div>
+        <h1>Learn by <span>building.</span></h1>
+        <p id="brandTagline">Learn. Code. Experiment. Build.</p>
+        <p class="hero-description" id="brandDescription">A hands-on coding lab where every lesson becomes a real project you can edit, preview and take home.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#classes">Explore classes</a>
+          <a class="button ghost" href="#workspace">Enter workspace</a>
+        </div>
+        <div class="hero-stats">
+          <div><b id="classCount">0</b><span>projects</span></div>
+          <div><b>100%</b><span>browser based</span></div>
+          <div><b>0</b><span>servers required</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-orbit orbit-1"></div><div class="code-orbit orbit-2"></div>
+        <div class="dev-card">
+          <div class="dev-card-top"><span></span><span></span><span></span><label>workspace.local</label></div>
+          <pre><code>&lt;<i>build</i> future={<em>true</em>}&gt;
+  <i>learn</i>();
+  <i>experiment</i>();
+  <i>ship</i>();
+&lt;/<i>build</i>&gt;</code></pre>
+          <div class="scanline"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="classes" class="section shell">
+      <div class="section-heading">
+        <div><div class="eyebrow">PROJECT LIBRARY</div><h2>Pick a project. Then break it.</h2><p>Change the code. Watch the result. Learn why it works.</p></div>
+        <div class="search-wrap"><input id="search" type="search" placeholder="Search classes, topics, tags…" aria-label="Search classes" /><span>⌘ K</span></div>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="class-grid" id="classGrid"></div>
+      <div class="empty" id="emptyState" hidden>No matching projects. Try another search.</div>
+    </section>
+
+    <section id="workspace" class="section shell workspace-section">
+      <div class="section-heading compact"><div><div class="eyebrow">SMART PLAYGROUND</div><h2>Code it yourself.</h2><p id="workspaceSubtitle">Choose a project to open the browser-based coding workspace.</p></div></div>
+      <div class="workspace" id="workspaceShell" aria-live="polite">
+        <div class="workspace-empty" id="workspaceEmpty"><div class="empty-icon">&lt;/&gt;</div><h3>Select a project</h3><p>Your editor, file tree and live preview will appear here.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell"><span id="footerBrand">Web Lab</span><span>Built for learning through doing.</span></footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

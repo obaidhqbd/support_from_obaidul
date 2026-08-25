@@ -1,0 +1,18 @@
+{
+  "brand": {
+    "name": "Obaid Web Lab",
+    "shortName": "OWL",
+    "role": "Web Development Learning Lab",
+    "tagline": "Learn. Code. Experiment. Build.",
+    "description": "A futuristic, hands-on workspace for learning modern web development by building real projects.",
+    "logo": "",
+    "avatar": "",
+    "github": "https://github.com/obaidhqbd",
+    "website": "",
+    "youtube": ""
+  },
+  "ui": {
+    "defaultTheme": "dark",
+    "accent": "#67e8f9"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "002-card-component",
+  "title": "Responsive Project Card",
+  "description": "Create a compact project card and use CSS Grid to make it responsive.",
+  "category": "CSS",
+  "level": "Beginner",
+  "duration": "45 min",
+  "tags": ["CSS", "Grid", "Responsive", "UI"],
+  "featured": false,
+  "entry": "index.html"
+}

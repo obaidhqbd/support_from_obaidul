@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; font-family: system-ui, sans-serif; background: #070a10; color: #f8fafc; }
+.card { width: min(100%, 520px); padding: 32px; border: 1px solid #ffffff18; border-radius: 24px; background: linear-gradient(145deg, #121827, #0b0f18); box-shadow: 0 24px 80px #00000055; }
+.badge { display: inline-flex; padding: 7px 10px; border-radius: 999px; background: #67e8f912; color: #67e8f9; font-size: 12px; letter-spacing: .16em; }
+h1 { font-size: clamp(34px, 7vw, 60px); line-height: 1; margin: 18px 0 14px; }
+p { color: #a7b2c3; line-height: 1.6; }
+.cta { display: inline-flex; margin-top: 10px; padding: 12px 16px; color: #071017; background: #67e8f9; border-radius: 12px; text-decoration: none; font-weight: 700; }

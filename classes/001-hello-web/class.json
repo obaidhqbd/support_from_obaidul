@@ -1,0 +1,11 @@
+{
+  "id": "001-hello-web",
+  "title": "Hello, Modern Web",
+  "description": "Build a tiny responsive landing page and experiment with HTML, CSS and JavaScript.",
+  "category": "HTML",
+  "level": "Beginner",
+  "duration": "35 min",
+  "tags": ["HTML", "CSS", "JavaScript", "Beginner"],
+  "featured": true,
+  "entry": "index.html"
+}
